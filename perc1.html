@@ -1,11 +1,17 @@
-<html>
-<body>
-<h1 align="center">First JavaScript</h1>
-<hr >
-<script language="javascript" type="text/javascript">
-document.write("<font size='5'color='red'><center>Hello, world!</font>");
-document.write("<br ><font size='7' color='blue'>
-It's a beautiful day!</center></font>");
-</script>
-</body>
-</html>
+<HTML>
+<BODY>
+<SCRIPT language="javascript">
+kata = " Pemrograman Web ";
+document.write("<p style='color:blue;font‐weight:bold'>Kata :"+kata+"</p><BR>");
+document.write("Panjang Kata adalah "+kata.length+"<BR>");
+document.write("Animasi Kata adalah "+kata.blink()+"<BR>");
+document.write("Karakter ke‐0 adalah "+kata.charAt(0)+"<BR>");
+document.write("Kata menjadi huruf besar "+kata.toUpperCase()+"<BR>");
+document.write("Kata menjadi huruf kecil "+kata.toLowerCase()+"<BR>");
+document.write("Index huruf W adalah "+kata.indexOf("W")+"<BR>");
+awal=kata.indexOf("W");
+akhir=kata.length;
+document.write("Kata yang tersisa adalah "+kata.substring(awal,akhir));
+</SCRIPT>
+</BODY>
+</HTML>
